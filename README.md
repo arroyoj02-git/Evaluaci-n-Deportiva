@@ -13,7 +13,7 @@ Plugin de WordPress para evaluación integral de jugadores en clubes y academias
 
 Sistema completo para que clubes deportivos (fútbol, básquetbol, y otras disciplinas) evalúen jugadores de forma estructurada, den seguimiento a su progreso y generen credenciales visuales tipo "baseball card" con foto sin fondo.
 
-Actualmente en validación con **Club Baloncesto Lobos (Semilleros BJ)**.
+Actualmente buscando colaboradores para validar la funcionalidad
 
 ### Características principales
 
@@ -75,9 +75,9 @@ Se define la siguiente instancia
 
 ## 💻 Requisitos
 
-- WordPress 6.0+
-- PHP 7.4+
-- MySQL 5.7+ / MariaDB 10.3+
+- WordPress 7.0+
+- PHP 8.5+
+- MariaDB 11.4.12+
 - (Opcional) Servicio propio de remoción de fondo — ver [`rembg-api`](https://github.com/ilderim/rembg-api) para desplegar el tuyo, o cualquier endpoint compatible
 
 ## 🔧 Instalación
@@ -107,12 +107,6 @@ Si no configuras la API de remoción de fondo, el plugin sigue funcionando con n
 ## 💰 Licenciamiento
 
 El **código** de este repositorio se distribuye bajo **GPL v2** (compatible con WordPress). El **uso comercial soportado** (actualizaciones, soporte, hosting del servicio de fotos) se ofrece bajo tres planes:
-
-| Plan | Precio (MXN) |
-|---|---|
-| Básica | $2,900 |
-| Club | $5,900 |
-| Academia | $9,900 |
 
 Para detalles de cada plan, contacta a [Ilderim Digital Solutions](https://ilderim.mx).
 
